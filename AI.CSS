@@ -1,0 +1,84 @@
+
+.Section_top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(https://c1.wallpaperflare.com/preview/993/374/570/technology-developer-touch-finger.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out;
+    
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+
+}
+.content h1{
+    color: #000000;
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+.content h1 span{
+    color: #8b0303;
+}
+.content a{
+    background: #ffffff;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.content a:hover{
+    background: #034e88;
+    color: #000000;
+}
+@keyframes change{
+    0%
+    {
+        background-image: url(images/img1.jpg);
+    }
+    20%
+    {
+        background-image: url(https://static.vecteezy.com/system/resources/previews/027/152/735/non_2x/connection-male-human-and-artificial-intelligence-robot-the-concept-of-merging-a-person-and-a-computer-with-neural-networks-in-the-future-ai-generated-free-photo.jpg);
+    }
+    40%
+    {
+        background-image: url(https://photos.smugmug.com/AI-wallpapers/i-rZg9n93/0/02630b37/XL/HDRshooter-AI-generated-wallpaper-3840x2160-013-XL.jpg);
+    }
+    60%
+    {
+        background-image: url(https://miro.medium.com/v2/resize:fit:1022/1*7jC9libROrebgpBl4paHaw.jpeg);
+    }
+    80%
+    {
+        background-image: url(https://aimadeimage.net/wp-content/uploads/2023/11/ai-future-robots-5.jpg);
+    }
+    90%
+    {
+        background-image: url(https://wallpapercave.com/wp/wp2425680.jpg);
+    }
+    100%
+    {
+        background-image: url(https://saminsider.com/wp-content/uploads/2024/02/How-to-bring-S24-Galaxy-AI-wallpapers-to-any-Samsung-phone.jpg);
+    }
+    100%
+    {
+        background-image: url(https://autogpt.net/wp-content/uploads/2023/12/ai-cyber-security.jpg);
+    }
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
